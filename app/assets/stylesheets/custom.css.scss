@@ -61,7 +61,7 @@ footer ul li
 }
 .article-actions{
   border-top: 1px solid #eaeaea;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 .description{
   margin-top: 0;
@@ -70,10 +70,20 @@ footer ul li
   font-weight: bold;
   font-size: 1.5em;
 }
+.btn-xlarge{
+  font-size: 1.7em;
+  background-color: black;
+}
+.article-meta-details{
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+  padding-top: 5px;
+}
 .article-body{
 border-top: 1px solid #eaeaea;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-top: 15px;
 }
 @import 'bootstrap/dist/css/bootstrap'
 
