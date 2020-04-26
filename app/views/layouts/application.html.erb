@@ -1,6 +1,4 @@
-
 <!DOCTYPE html>
-<br>
   <head>
     <title>AlphaBlog</title>
     <%= csrf_meta_tags %>
@@ -9,10 +7,8 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
-  <br>
-    <%= render'layouts/navigation' %>
-
+  <body>
+    <%= render 'layouts/navigation' %>
       <%= render 'layouts/messages' %>
       <%= yield %>
     <%= render 'layouts/footer' %></br></br>
